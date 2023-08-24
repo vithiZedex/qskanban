@@ -6,30 +6,38 @@
 .App-header {
   background-color: #ffffff;
   padding: 20px;
+  color: #000000;
 }
 
+/* Previous styles */
 .App-main {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
+}
+
+.Card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 220px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin:5px;
+}
+
+.App-main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
 }
 
-.Card {
-  border: 1px solid #ccc;
-  padding: 10px;
-  max-width: 240px;
-  border-radius: 5px;
-  margin:5px;
-}
-
 .TagSection {
   flex: 1;
   margin: 10px;
 }
+
+
 .Card h4 {
   margin: 0;
   font-size: 18px;
@@ -42,27 +50,29 @@
   text-align: left;
 }
 
+/* ... Previous styles ... */
+
 .content{
   display: flex;
   justify-content: left;
   align-items: center;
 }
-.dropdown-div {
+.Dropdowns {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   box-shadow: #ccc;
 }
 
-.dropdown {
+.Dropdown {
   margin-right: 10px;
 }
 
-.dropdown label {
+.Dropdown label {
   margin-right: 5px;
 }
 
-.dropdown select {
+.Dropdown select {
   padding: 5px;
   font-size: 14px;
 }
@@ -76,6 +86,8 @@
   font-size: 18px;
 }
 
+
+/* ... Other styles ... */
 
 .SectionContainer {
   display: flex;
